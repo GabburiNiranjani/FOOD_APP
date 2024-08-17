@@ -1,0 +1,455 @@
+*{
+    margin:0;
+    padding:0;
+}
+*
+{
+    font-family: "Playwrite AU VIC", cursive;
+    font-family: "poppins",sans-serif;
+}
+body{
+    background-color: #fcf5bd;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 50px;
+    background-color: #fcf5bd;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.nav ul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav ul li{
+  list-style-type: none;
+  padding:7px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-family: "poppins",sans-serif;
+}
+.home .name{
+    font-size:30px;
+    margin-left:70px;
+    font-weight: 600;
+}
+.home .name b{
+    color: orange;
+}
+
+.home .btn a{
+    text-decoration: none;
+    color: #000;
+    font-family: "poppins",sans-serif;
+}
+.home .btn{
+width:100px;
+height:30px;
+ border-radius:15px;
+  font-family: "poppins",sans-serif;
+  font-weight: 400;
+  font-size:16px;
+  cursor: pointer;
+  border: 1px solid orange;
+  margin-right:80px;
+  background:#fcf5cb;
+}
+.header{
+    display: flex;
+    gap:20%;
+}
+.header .right{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 52px;
+}
+.header .right h1{
+    font-size: 64px;
+    line-height: 72px;
+}
+.header .right p{
+font-size: 18px;
+    width: 500px;
+    color: #333;
+    line-height: 32px;
+    text-align: left;
+}
+
+.header .right a {
+    background: #f4bf41;
+    width: 124px;
+    padding: 8px 8px;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #000;
+    box-shadow: 2px 4px 8px #f4bf41;
+    text-decoration: none;
+}
+
+.row{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:25px;
+    padding-top:70px;
+} 
+.types h1{
+    text-align: center;
+    padding-top:30px;
+    font-size:35px;
+    font-family: "Playwrite AU VIC", cursive;
+}
+.des{
+    background-color:orange;
+    width:250px;
+    height:320px;
+    border-radius:10px;
+    padding-top:30px;
+}
+.des .img img{ 
+    width:160px;
+    height:150px;
+    margin-left:50px;
+    border-radius:10px;
+}
+.des h3{
+    font-size: 20px;
+    font-weight:500;
+    font-family:"poppins",sans-serif;
+    padding-top:20px;
+}
+.des p{
+    font-size: 12px;
+    font-weight: 500;
+     font-family:"poppins",sans-serif;
+     padding:3px;
+     color:black;
+}
+.hi{
+    margin-top: 10%;
+    background-image: url(./images/tiffin.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:230px;
+    width:85%;
+    margin-left:5%;
+    border-radius: 10px;
+}
+.hi h2{
+    padding-top:25px;
+    margin-left:40px;
+    font-size: 45px;
+    font-family: "Playwrite AU VIC", cursive;
+}
+.hi .p{
+    margin-left: 40px;
+    font-size:23px;
+    font-family: "poppins",sans-serif;
+    text-transform: capitalize;
+    padding:5px;
+    line-height: 1.5;
+    color: rgb(97, 95, 95);
+    font-weight: 500;
+    text-align: left;
+}
+.serve h1{
+    text-align: center;
+    margin-top:20px;
+    font-size: 35px;
+    font-family:"Playwrite AU VIC", cursive ;
+}
+.serve h6{
+    text-align: center;
+    font-size: 15px;
+    font-family: "poppins",sans-serif;
+    font-weight:500;
+    padding:5px;
+    color: rgb(97, 95, 95);
+}
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desc{
+    width:320px;
+    height:200px;
+}
+.desc .imgs img{ 
+    width:300px;
+    height:250px;
+    border-radius:10px;
+    margin-left: 5px;
+}
+.desc h3{
+    font-size:20px;
+    font-weight:400;
+    font-family: "Poppins",sans-serif;
+    text-align: center;
+    margin-top:10px;
+}
+.desc p{
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+     font-family:"poppins",sans-serif ;
+     color: rgb(97, 95, 95);
+    }
+
+.desc .btn{
+    width:130px;
+    height:40px;
+    margin-top:30px;
+     border-radius:15px;
+      font-family: "poppins",sans-serif;
+      text-transform:uppercase;
+      background-color:brown;
+      color:white;
+      border: none;
+      cursor: pointer;
+      font-weight: 400;
+      font-size: 12px;
+      cursor: pointer;
+      text-align: center;
+      margin-left:80px;
+    }
+    .abt{
+        background-image: url(./images/veg.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:400px;
+        border-radius: 10px;
+        margin-top: 20%;
+        width: 80%;
+        margin-left:10%;
+    }
+    
+    .abt h1{
+        padding-top:35%;
+        text-align: center;
+        font-size: 35px;
+        font-family:"Playwrite AU VIC", cursive ;
+    }
+    
+    .abt p{
+        font-size: 15px;
+        text-align: center;
+        font-weight: 500;
+         font-family:"poppins",sans-serif;
+         color: rgb(97, 95, 95);
+         line-height: 1.6;
+         padding: 10px;
+    }
+.gal h1{
+    padding-top:15%;
+    text-align: center;
+    font-size: 35px;
+    font-family:"Playwrite AU VIC", cursive ;
+}
+.desc1{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.desc1 .imgs img{ 
+    width:300px;
+    height:250px;
+    border-radius:10px;
+    margin-left: 5px;
+}
+.hi1{
+    background-image: url(./images/netural.jpeg);
+    margin-top:70px;
+    height:300px;
+    width: 90%;
+    margin-left:5%;
+    border-radius: 10px;
+}
+.hi1  h2{
+    text-align: center;
+    font-size: 35px;
+    font-family:"Playwrite AU VIC", cursive ;
+    padding-top: 50px;
+}
+ .hi1 span{
+    color: brown;
+    font-size:35px;
+}
+ .hi1 p{
+    text-align: center;
+    padding:0px;
+    font-size: 14px;
+    font-family: "poppins",sans-serif;
+    color: rgb(132, 130, 130);
+}
+strong{
+    font-size: 35px;
+}
+/*footer*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    height:300px;
+    background-color: #000;
+}
+footer .foo{
+    display: flex;
+    flex-direction: column;
+    margin-top:60px;
+}
+.foo h2{
+    color:orange;
+    font-weight: 600;
+    font-family:"poppins",sans-serif;
+    font-size: 35px;
+}
+.foo b{
+    color: white;
+}
+.foo p{
+    color:white;
+    font-size: 12px;
+    font-weight:300;
+    font-family: "poppins" sans-serif;
+    padding-top:8px;
+}
+.foo h6{
+    color:rgb(244, 230, 230);
+    font-weight: 200;
+    font-size: 12px;
+    padding-top:6px;
+}
+.foo h5{
+    color:orange;
+    font-weight:300;
+    font-size:14px;
+    font-family: "poppins",sans-serif;
+    padding-top: 8px;
+}
+.foo h4{
+    color:orange;
+    font-weight:300;
+    font-size: 16px;
+    font-family:"poppins",sans-serif;
+    padding:8px;
+}
+.foo ul li{
+    list-style: none;
+    color:rgb(242, 233, 233);
+    padding:8px;
+    font-size:13px;
+    font-weight: 400;
+}
+.foo input{
+    background-color:rgb(53, 52, 52);
+    width:140px;
+    height:15px;
+    padding:3px 8px;
+    color: white;
+    font-size:12px;
+    font-family: "poppins",sans-serif;
+    font-weight:600;
+    border: none;
+}
+.foo .sign{
+    display: flex;
+    padding-top: 8px;
+}
+.foo button{
+    background-color: orange;
+    font-size:10px;
+    font-weight: 400;
+    font-family: "poppins",sans-serif;
+    border: none;
+    height:20px;
+    width:60px;
+
+}
+.contact{
+    margin-top: 20px;
+    margin-left:30%;
+}
+  .container{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    gap:20px;
+  }
+  .contact button{
+    border-radius: 10px;
+    border: 1px solid burlywood;
+    text-align: center;
+    font-size:12px;
+    width:120px;
+    height: 25px;
+    font-weight: 500;
+    margin-left:10px;
+    
+  }
+  .contact  h1{
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 16px;
+    font-weight: 500;
+    
+  }
+  .container .con p{
+    font-size: 14px;
+    font-family:"poppins",sans-serif;
+    font-weight: 300;
+    color:rgb(72, 72, 72);
+    padding-top: 16px;
+  }
+  .container .con bold{
+    color:burlywood;
+    font-weight: 500;
+  }
+  .container .con input{
+    width:300px;
+    height: 30px;
+    padding:6px 12px;
+    margin-top: 16px;
+    border-radius: 10px;
+    border: 1px solid burlywood;
+  }
+  .container .con #text{
+    width:300px;
+    height:80px;
+    padding:6px 12px;
+    margin-top: 16px;
+    border-radius: 10px;
+    border: 1px solid burlywood;
+    color:rgb(93, 91, 91);
+    font-weight: 300;
+  }
+  .container .con #btn{
+    width:310px;
+    height:35px;
+    text-align: center;
+    margin-top: 16px;
+    border-radius:50px;
+    border: 1px solid burlywood;
+    color:rgb(53, 52, 52);
+    font-weight: 300;
+    background-color: burlywood;
+  }
+  .container .con fieldset{
+    width:300px;
+    padding:8px 16px;
+    margin-top:16px;
+    border-radius: 10px;
+    border: 1px solid burlywood;
+  }
+ 
